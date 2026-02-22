@@ -1,4 +1,9 @@
 class OnnxService {
+  Future<void> loadModel() async {
+    // Web implementation doesn't need to load a model file
+    // Using formula-based prediction instead
+  }
+
   Future<double> predict({
     required int year,
     required int engineCC,
